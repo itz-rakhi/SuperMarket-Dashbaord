@@ -1,154 +1,176 @@
-#🛒 Supermarket Sales Dashboard | Power BI
+# 🛒 Supermarket Sales Dashboard
 
-An interactive Power BI dashboard designed to analyze supermarket sales performance, customer behavior, branch performance, and profitability through dynamic visualizations and business insights.
+An interactive **Power BI Dashboard** built to analyze supermarket sales performance across branches, product lines, customer types, and payment methods. The dashboard provides actionable insights through dynamic KPIs, charts, and filters, helping businesses make data-driven decisions.
 
-📖 Overview
+---
 
-The Supermarket Sales Dashboard is an end-to-end Business Intelligence project developed in Power BI using a supermarket sales dataset. The dashboard transforms raw transactional data into meaningful insights that help stakeholders monitor sales performance, understand customer purchasing patterns, evaluate product performance, and support strategic business decisions.
+## 📌 Project Overview
 
-The report features interactive slicers, dynamic KPIs, and visually appealing charts that allow users to explore sales data across different dimensions such as branches, cities, product lines, payment methods, and customer types.
+This project demonstrates how Power BI can transform raw sales data into meaningful business insights. The dashboard enables users to explore sales trends, customer behavior, branch performance, and profitability using interactive visualizations.
 
-🎯 Project Objectives
-Analyze overall sales performance.
-Track revenue and profit across branches.
-Identify top-performing product lines.
-Understand customer purchasing behavior.
-Compare payment method preferences.
-Monitor monthly sales trends.
-Build an interactive dashboard for business decision-making.
-📊 Dashboard Features
-📌 Key Performance Indicators (KPIs)
-💰 Total Sales
-📦 Total Quantity Sold
-💵 Total Gross Income / Profit
-📈 Average Sales per Transaction
-⭐ Average Customer Rating
-📈 Dashboard Visualizations
-Sales by Product Line
-Branch-wise Sales Performance
-City-wise Revenue Comparison
-Monthly Sales Trend
-Customer Type Distribution
-Gender-wise Sales Analysis
-Payment Method Distribution
-Product Line Profit Analysis
-Customer Rating Analysis
-🎛 Interactive Filters (Slicers)
+---
 
-Users can dynamically filter the report using:
+## 🎯 Objectives
 
-Date
-Branch
-City
-Product Line
-Customer Type
-Gender
-Payment Method
-🛠 Technologies Used
-Tool	Purpose
-Power BI Desktop	Dashboard Development
-Power Query	Data Cleaning & Transformation
-DAX	KPI Calculations & Measures
-Data Modeling	Relationship Management
-Excel/CSV Dataset	Data Source
-📂 Dataset Information
+- Analyze overall sales performance.
+- Monitor branch-wise revenue.
+- Identify top-performing product lines.
+- Understand customer purchasing behavior.
+- Compare payment methods.
+- Track monthly sales trends.
+- Create an interactive business intelligence dashboard.
 
-The dashboard uses a supermarket sales dataset containing transaction-level information including:
+---
 
-Invoice ID
-Branch
-City
-Customer Type
-Gender
-Product Line
-Unit Price
-Quantity
-Tax
-Total Sales
-Date
-Time
-Payment Method
-Gross Income
-Customer Rating
-📈 Business Questions Answered
+## 📊 Dashboard Features
 
-✔ Which branch generates the highest revenue?
+### 📈 Key Performance Indicators (KPIs)
 
-✔ Which product line contributes the most to total sales?
+- 💰 Total Sales
+- 📦 Total Quantity Sold
+- 💵 Gross Income
+- ⭐ Average Customer Rating
+- 📊 Average Sales per Transaction
 
-✔ Which payment method is most preferred by customers?
+---
 
-✔ What are the monthly sales trends?
+### 📉 Visualizations
 
-✔ Which customer type contributes more revenue?
+- Sales by Product Line
+- Branch-wise Sales
+- City-wise Sales
+- Monthly Sales Trend
+- Customer Type Distribution
+- Gender-wise Sales Analysis
+- Payment Method Distribution
+- Gross Income Analysis
+- Customer Ratings Analysis
 
-✔ How do customer ratings vary across product categories?
+---
 
-✔ Which city performs better in terms of sales?
+## 🎛 Interactive Filters
 
-💡 Key Insights
-Identified the best-performing branches based on revenue.
-Compared sales performance across multiple product categories.
-Analyzed customer purchasing behavior by gender and customer type.
-Evaluated payment method preferences.
-Tracked sales growth over time.
-Measured profitability using Gross Income.
-Built an interactive report enabling quick business analysis.
-📸 Dashboard Preview
+Users can filter the dashboard by:
 
-Replace the image below with your dashboard screenshot.
+- Date
+- Branch
+- City
+- Product Line
+- Customer Type
+- Gender
+- Payment Method
 
-![Dashboard Preview](Supermarket%20Sales.png)
-📁 Project Structure
-Supermarket-Sales-Dashboard
+---
+
+## 🛠 Tech Stack
+
+- **Power BI Desktop**
+- **Power Query**
+- **DAX (Data Analysis Expressions)**
+- **Data Modeling**
+
+---
+
+## 📂 Dataset
+
+The dashboard is built using a supermarket sales dataset containing the following fields:
+
+- Invoice ID
+- Branch
+- City
+- Customer Type
+- Gender
+- Product Line
+- Unit Price
+- Quantity
+- Tax
+- Total Sales
+- Date
+- Time
+- Payment Method
+- Gross Income
+- Customer Rating
+
+---
+
+## 📊 Business Insights
+
+- Identified the highest revenue-generating branch.
+- Compared sales across different product categories.
+- Analyzed customer purchasing patterns.
+- Evaluated preferred payment methods.
+- Monitored monthly sales performance.
+- Measured profitability using Gross Income.
+
+---
+
+## 🚀 Skills Demonstrated
+
+- Data Cleaning
+- Data Transformation
+- Data Modeling
+- DAX Measures
+- KPI Development
+- Dashboard Design
+- Business Intelligence
+- Data Visualization
+
+---
+
+## 📸 Dashboard Preview
+
+<p align="center">
+  <img src="Supermarket%20Sales.png" alt="Supermarket Sales Dashboard" width="100%">
+</p>
+
+---
+
+## 📁 Project Structure
+
+```
+Supermarket-Sales-Dashboard/
 │
 ├── Supermarket_sales.pbix
 ├── Supermarket Sales.png
 ├── README.md
-└── Dataset.csv (if included)
-🚀 Skills Demonstrated
-Data Preparation
-Data Cleaning
-Data Transformation
-Handling Missing Values
-Power BI Development
-Data Modeling
-Relationships
-DAX Measures
-Calculated Columns
-KPIs
-Interactive Dashboard Design
-Business Intelligence
-Sales Analytics
-Customer Analytics
-Profit Analysis
-Trend Analysis
-Performance Monitoring
-📚 What I Learned
+└── Dataset.csv
+```
 
-During this project, I learned how to:
+---
 
-Build professional Power BI dashboards.
-Create interactive reports using slicers and filters.
-Design meaningful KPIs using DAX.
-Transform raw business data into actionable insights.
-Improve dashboard usability through effective visualization techniques.
-Present business performance in a simple and visually engaging way.
-📌 Future Improvements
-Add Year-over-Year (YoY) Sales Analysis.
-Include Forecasting using Power BI Analytics.
-Add Profit Margin Analysis.
-Implement Drill-through Pages.
-Create Mobile-Friendly Dashboard Layout.
-Integrate SQL as a live data source.
-👩‍💻 Author
-Rakhi Samant
+## 📈 Key Learnings
 
-🎓 Computer Engineering Student
-📊 Aspiring Data Analyst | Power BI Developer
-💻 Passionate about Data Analytics, SQL, Excel, Python, and Business Intelligence.
+Through this project, I learned how to:
 
-🔗 Connect with Me
-GitHub: https://github.com/itz-rakhi
-LinkedIn: https://www.linkedin.com/in/rakhi-samant-0bb067346
-⭐ If you found this project helpful, consider giving it a Star on GitHub!
+- Design professional Power BI dashboards.
+- Create interactive reports using slicers.
+- Develop KPIs with DAX.
+- Transform raw data into meaningful insights.
+- Present business information through effective visualizations.
+
+---
+
+## 🔮 Future Enhancements
+
+- Year-over-Year Sales Analysis
+- Profit Margin Dashboard
+- Sales Forecasting
+- Drill-through Reports
+- Mobile Layout Optimization
+
+---
+
+## 👩‍💻 Author
+
+**Rakhi Samant**
+
+Computer Engineering Student | Aspiring Data Analyst
+
+### Connect with Me
+
+- 💼 LinkedIn: https://www.linkedin.com/in/rakhi-samant-0bb067346
+- 💻 GitHub: https://github.com/itz-rakhi
+
+---
+
+⭐ If you like this project, don't forget to **Star** this repository!
