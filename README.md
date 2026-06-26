@@ -120,7 +120,7 @@ The dashboard is built using a supermarket sales dataset containing the followin
 ## 📸 Dashboard Preview
 
 <p align="center">
-  <img src="Supermarket%20Sales.png" alt="Supermarket Sales Dashboard" width="100%">
+  <img src="https://github.com/itz-rakhi/SuperMarket-Dashbaord/blob/main/Screenshot%202026-06-24%20233643.png" alt="Supermarket Sales Dashboard" width="100%">
 </p>
 
 ---
